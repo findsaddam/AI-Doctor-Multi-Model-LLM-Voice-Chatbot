@@ -49,7 +49,7 @@ iface = gr.Interface(
         gr.Textbox(label="Doctor's Response"),
         gr.Audio("Temp.mp3")
     ],
-    title="AI Doctor with Vision and Voice (Saddam Hussain)"
+    title="AI Doctor Voice Assistant (By Saddam Hussain)"
 )
 
 iface.launch(debug=True)
